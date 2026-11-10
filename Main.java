@@ -184,7 +184,7 @@ public class Main {
  
     }
     
-    // Recursive helper for combinations
+    
     static int combine(ArrayList<String> list, String current, int start, int picked, int r) {
     	if (picked == r) {
     		System.out.println(current);
